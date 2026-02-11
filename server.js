@@ -2,15 +2,17 @@ const express = require('express');
 
 const app = express(); //Calling express as a function sets up server
 
+app.set('view engine', 'ejs');
 app.get('/',(req, res)=>{
     console.log('Here');
-    res.render('index');
+    res.render('index', {userName:'Thi'});
 });
-app.get('/potato',(req, res)=>{
-    res.send('<p>Here are your potatoes</p>')
+app.get('/users', (req, res)=>{
+    res.send('User List');
 });
-app.get('/status', (req,res)=>{
-    res.download('server.js');
+
+app.get('/users/new', (req, res)=>{
+    res.send('User New Form');
 });
 
 app.listen(3030); //Tell our app to listen for requests
