@@ -406,6 +406,7 @@ vilify	verb	to lower in estimation or importance
 virago	noun	a loud overbearing woman; termagant
 vitiate	verb	to make faulty or defective; impair
 vivacious	adjective	lively in temper, conduct, or spirit; sprightly
-volubility	adjective	easily rolling or turning; rotatingwaft	verb	to be driven or carried along, as by the air
+volubility	adjective	easily rolling or turning; rotating
+waft	verb	to be driven or carried along, as by the air
 welter	verb	to become deeply sunk, soaked, or involved
 writ	noun	something written; writing
